@@ -1,2 +1,2 @@
 # Digital-Oz
-Site vitrine de design
+Site vitrine du Startup Digital'Oz
