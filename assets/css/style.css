@@ -524,13 +524,16 @@ h6 {
 
 .buton-null:hover {
     background: white;
-    color: black;
-    border: 1px solid #af2f34;
+    color: #fa434a;
+    border: 1px solid #fa434a;
 }
 
 .buton-bg {
     background: linear-gradient(to bottom, rgb(252, 87, 42) 0%, rgb(249,48, 105) 100%);
+    cursor: pointer;
     color: #fff;
+    border: 1px solid rgb(249,48, 105);
+
 }
 
 .buton-bg:hover {
