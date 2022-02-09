@@ -294,6 +294,11 @@
                     <div class="section-head-green col-md-12">
                         <h4>NOUS CONTACTER</h4>
                     </div>
+                    <div class="col-md-12" >
+                        <h6 style="text-align: center !important; margin-bottom: 5%; font-weight: normal !important; color: #555;">
+                            Veuillez remplir tous les champs pour nous contacter.
+                        </h6>
+                    </div>
                     <div class="offset-md-1 col-md-10">
                         <form class="form" id="contact-form">
                             <div class="messages"></div>
@@ -301,36 +306,36 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input id="form_name" type="text" name="name" placeholder="Votre nom" required="required"> </div>
+                                        <input id="form_name" type="text" name="name" placeholder="Votre nom *" required="required"> </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input id="form_email" type="email" name="email" placeholder="Votre adresse email" required="required"> </div>
+                                        <input id="form_email" type="email" name="email" placeholder="Votre adresse email *" required="required"> </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input id="form_numero" type="text" name="name" placeholder="Votre numéro" required="required"> </div>
+                                        <input id="form_numero" type="text" name="name" placeholder="Votre numéro *" required="required"> </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input id="form_entreprise" type="email" name="email" placeholder="Votre entreprise" required="required"> </div>
+                                        <input id="form_entreprise" type="email" name="email" placeholder="Votre entreprise *" required="required"> </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input id="form_subject" type="text" name="Objet" placeholder="Subject"> </div>
+                                        <input id="form_subject" type="text" name="Objet" placeholder="Objet *"> </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea id="form_message" name="message" placeholder="En quoi pourions nous vous aider ?" rows="4" required="required"></textarea>
+                                            <textarea id="form_message" name="message" placeholder="En quoi pourions nous vous aider ? *" rows="4" required="required"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-md-12 text-center" style="margin-top: 3%;">
                                         <label class="container_in">
                                             <h5>J'ai lu et j'accepte la politique de confidentialité</h5>
-                                            <input type="checkbox" checked="checked">
+                                            <input id="check" type="checkbox">
                                             <span class="checkmark"></span>
                                         </label>
-                                        <span class="buton buton-bg">ENVOYER</span>
+                                        <a id="send_mail"><span class="buton buton-bg">ENVOYER</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -413,5 +418,6 @@
     <script src="assets/js/autotype.js"></script>
     <script src='assets/js/aos.js'></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/mail.js"></script>
 </body>
 </html>
