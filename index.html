@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>Digital'Oz</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/madamap1.png" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/et-lineicons.css">
     <link rel="stylesheet" href="assets/css/font-awesome.css" />
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="assets/css/aos.css" /> 
     <link rel="stylesheet" href="assets/css/style.css" /> 
+    <link rel="stylesheet" href="assets/css/modal.css" /> 
 </head>
 <body>
    <!-- Loading -->
@@ -402,6 +404,45 @@
             </div>
         </footer>
     </div>
+
+
+    <!-- Modal field -->
+    <div id="errorModal_1" class="modal fade">
+        <div class="modal-dialog modal-confirm">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <div class="icon-box">
+                        <i class="material-icons">&#xE5CD;</i>
+                    </div>
+                </div>
+                <div class="modal-body text-center">
+                    <h4>Ooops!</h4>	
+                    <p>Vous devez remplir tous les champs pour pouvoir nous envoyer un email.</p>
+                    <button class="buton-modal" data-dismiss="modal">Je comprends</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+    <!-- Modal check -->
+    <div id="errorModal_2" class="modal fade">
+        <div class="modal-dialog modal-confirm">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <div class="icon-box">
+                        <i class="material-icons">&#xE5CD;</i>
+                    </div>
+                </div>
+                <div class="modal-body text-center">
+                    <h4>Ooops!</h4>	
+                    <p>Vous devez lire et accepter la politique de confidentialité pour pouvoir envoyer ce message.</p>
+                    <button class="buton-modal" data-dismiss="modal">Je comprends</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
     <!-- jQuery -->
     <script src="assets/js/jquery-3.0.0.min.js"></script>
     <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
