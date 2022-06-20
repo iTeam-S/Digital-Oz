@@ -503,7 +503,19 @@ h6 {
     font-size: 14px;
     line-height: 1.75;
     font-weight: 400;
-    border-radius: 30px;
+    border-radius: 30ypx;
+    border: transparent;
+    color: #fa434a;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.buton-pme {
+    padding: 12px 35px;
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 400;
+    border-radius: 0px;
     border: transparent;
     color: #fa434a;
     -webkit-transition: all .5s;
@@ -578,7 +590,7 @@ h6 {
     font-size: 14px;
     font-weight: normal;
     color: white;
-    margin: 15px 5px;
+    margin: 27px 5px;
     -webkit-transition: all .5s;
     transition: all .5s;
     position: relative;
@@ -662,7 +674,7 @@ h6 {
 
 .logo {
     padding: 15px 0;
-    width: 100px;
+    width: 140px;
 }
 
 
