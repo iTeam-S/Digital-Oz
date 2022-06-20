@@ -1,2 +1,2 @@
 # Digital-Oz
-Site vitrine du Startup Digital'Oz
+Site vitrine du Startup Lemur Digital
